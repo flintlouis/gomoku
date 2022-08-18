@@ -31,9 +31,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -157,6 +154,174 @@ src/Board.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Board.cpp.s
 .PHONY : src/Board.cpp.s
 
+src/Gui/AiStats.o: src/Gui/AiStats.cpp.o
+.PHONY : src/Gui/AiStats.o
+
+# target to build an object file
+src/Gui/AiStats.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/AiStats.cpp.o
+.PHONY : src/Gui/AiStats.cpp.o
+
+src/Gui/AiStats.i: src/Gui/AiStats.cpp.i
+.PHONY : src/Gui/AiStats.i
+
+# target to preprocess a source file
+src/Gui/AiStats.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/AiStats.cpp.i
+.PHONY : src/Gui/AiStats.cpp.i
+
+src/Gui/AiStats.s: src/Gui/AiStats.cpp.s
+.PHONY : src/Gui/AiStats.s
+
+# target to generate assembly for a file
+src/Gui/AiStats.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/AiStats.cpp.s
+.PHONY : src/Gui/AiStats.cpp.s
+
+src/Gui/Button.o: src/Gui/Button.cpp.o
+.PHONY : src/Gui/Button.o
+
+# target to build an object file
+src/Gui/Button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/Button.cpp.o
+.PHONY : src/Gui/Button.cpp.o
+
+src/Gui/Button.i: src/Gui/Button.cpp.i
+.PHONY : src/Gui/Button.i
+
+# target to preprocess a source file
+src/Gui/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/Button.cpp.i
+.PHONY : src/Gui/Button.cpp.i
+
+src/Gui/Button.s: src/Gui/Button.cpp.s
+.PHONY : src/Gui/Button.s
+
+# target to generate assembly for a file
+src/Gui/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/Button.cpp.s
+.PHONY : src/Gui/Button.cpp.s
+
+src/Gui/GUI.o: src/Gui/GUI.cpp.o
+.PHONY : src/Gui/GUI.o
+
+# target to build an object file
+src/Gui/GUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GUI.cpp.o
+.PHONY : src/Gui/GUI.cpp.o
+
+src/Gui/GUI.i: src/Gui/GUI.cpp.i
+.PHONY : src/Gui/GUI.i
+
+# target to preprocess a source file
+src/Gui/GUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GUI.cpp.i
+.PHONY : src/Gui/GUI.cpp.i
+
+src/Gui/GUI.s: src/Gui/GUI.cpp.s
+.PHONY : src/Gui/GUI.s
+
+# target to generate assembly for a file
+src/Gui/GUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GUI.cpp.s
+.PHONY : src/Gui/GUI.cpp.s
+
+src/Gui/GuiBoard.o: src/Gui/GuiBoard.cpp.o
+.PHONY : src/Gui/GuiBoard.o
+
+# target to build an object file
+src/Gui/GuiBoard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GuiBoard.cpp.o
+.PHONY : src/Gui/GuiBoard.cpp.o
+
+src/Gui/GuiBoard.i: src/Gui/GuiBoard.cpp.i
+.PHONY : src/Gui/GuiBoard.i
+
+# target to preprocess a source file
+src/Gui/GuiBoard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GuiBoard.cpp.i
+.PHONY : src/Gui/GuiBoard.cpp.i
+
+src/Gui/GuiBoard.s: src/Gui/GuiBoard.cpp.s
+.PHONY : src/Gui/GuiBoard.s
+
+# target to generate assembly for a file
+src/Gui/GuiBoard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GuiBoard.cpp.s
+.PHONY : src/Gui/GuiBoard.cpp.s
+
+src/Gui/GuiPlayer.o: src/Gui/GuiPlayer.cpp.o
+.PHONY : src/Gui/GuiPlayer.o
+
+# target to build an object file
+src/Gui/GuiPlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GuiPlayer.cpp.o
+.PHONY : src/Gui/GuiPlayer.cpp.o
+
+src/Gui/GuiPlayer.i: src/Gui/GuiPlayer.cpp.i
+.PHONY : src/Gui/GuiPlayer.i
+
+# target to preprocess a source file
+src/Gui/GuiPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GuiPlayer.cpp.i
+.PHONY : src/Gui/GuiPlayer.cpp.i
+
+src/Gui/GuiPlayer.s: src/Gui/GuiPlayer.cpp.s
+.PHONY : src/Gui/GuiPlayer.s
+
+# target to generate assembly for a file
+src/Gui/GuiPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/GuiPlayer.cpp.s
+.PHONY : src/Gui/GuiPlayer.cpp.s
+
+src/Gui/PlayerStats.o: src/Gui/PlayerStats.cpp.o
+.PHONY : src/Gui/PlayerStats.o
+
+# target to build an object file
+src/Gui/PlayerStats.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/PlayerStats.cpp.o
+.PHONY : src/Gui/PlayerStats.cpp.o
+
+src/Gui/PlayerStats.i: src/Gui/PlayerStats.cpp.i
+.PHONY : src/Gui/PlayerStats.i
+
+# target to preprocess a source file
+src/Gui/PlayerStats.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/PlayerStats.cpp.i
+.PHONY : src/Gui/PlayerStats.cpp.i
+
+src/Gui/PlayerStats.s: src/Gui/PlayerStats.cpp.s
+.PHONY : src/Gui/PlayerStats.s
+
+# target to generate assembly for a file
+src/Gui/PlayerStats.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/PlayerStats.cpp.s
+.PHONY : src/Gui/PlayerStats.cpp.s
+
+src/Gui/Text.o: src/Gui/Text.cpp.o
+.PHONY : src/Gui/Text.o
+
+# target to build an object file
+src/Gui/Text.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/Text.cpp.o
+.PHONY : src/Gui/Text.cpp.o
+
+src/Gui/Text.i: src/Gui/Text.cpp.i
+.PHONY : src/Gui/Text.i
+
+# target to preprocess a source file
+src/Gui/Text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/Text.cpp.i
+.PHONY : src/Gui/Text.cpp.i
+
+src/Gui/Text.s: src/Gui/Text.cpp.s
+.PHONY : src/Gui/Text.s
+
+# target to generate assembly for a file
+src/Gui/Text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/Gui/Text.cpp.s
+.PHONY : src/Gui/Text.cpp.s
+
 src/TranspositionTable.o: src/TranspositionTable.cpp.o
 .PHONY : src/TranspositionTable.o
 
@@ -204,6 +369,30 @@ src/algorithm.s: src/algorithm.cpp.s
 src/algorithm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/algorithm.cpp.s
 .PHONY : src/algorithm.cpp.s
+
+src/argument_parser.o: src/argument_parser.cpp.o
+.PHONY : src/argument_parser.o
+
+# target to build an object file
+src/argument_parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/argument_parser.cpp.o
+.PHONY : src/argument_parser.cpp.o
+
+src/argument_parser.i: src/argument_parser.cpp.i
+.PHONY : src/argument_parser.i
+
+# target to preprocess a source file
+src/argument_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/argument_parser.cpp.i
+.PHONY : src/argument_parser.cpp.i
+
+src/argument_parser.s: src/argument_parser.cpp.s
+.PHONY : src/argument_parser.s
+
+# target to generate assembly for a file
+src/argument_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gomoku.dir/build.make CMakeFiles/gomoku.dir/src/argument_parser.cpp.s
+.PHONY : src/argument_parser.cpp.s
 
 src/heuristic.o: src/heuristic.cpp.o
 .PHONY : src/heuristic.o
@@ -289,12 +478,36 @@ help:
 	@echo "... src/Board.o"
 	@echo "... src/Board.i"
 	@echo "... src/Board.s"
+	@echo "... src/Gui/AiStats.o"
+	@echo "... src/Gui/AiStats.i"
+	@echo "... src/Gui/AiStats.s"
+	@echo "... src/Gui/Button.o"
+	@echo "... src/Gui/Button.i"
+	@echo "... src/Gui/Button.s"
+	@echo "... src/Gui/GUI.o"
+	@echo "... src/Gui/GUI.i"
+	@echo "... src/Gui/GUI.s"
+	@echo "... src/Gui/GuiBoard.o"
+	@echo "... src/Gui/GuiBoard.i"
+	@echo "... src/Gui/GuiBoard.s"
+	@echo "... src/Gui/GuiPlayer.o"
+	@echo "... src/Gui/GuiPlayer.i"
+	@echo "... src/Gui/GuiPlayer.s"
+	@echo "... src/Gui/PlayerStats.o"
+	@echo "... src/Gui/PlayerStats.i"
+	@echo "... src/Gui/PlayerStats.s"
+	@echo "... src/Gui/Text.o"
+	@echo "... src/Gui/Text.i"
+	@echo "... src/Gui/Text.s"
 	@echo "... src/TranspositionTable.o"
 	@echo "... src/TranspositionTable.i"
 	@echo "... src/TranspositionTable.s"
 	@echo "... src/algorithm.o"
 	@echo "... src/algorithm.i"
 	@echo "... src/algorithm.s"
+	@echo "... src/argument_parser.o"
+	@echo "... src/argument_parser.i"
+	@echo "... src/argument_parser.s"
 	@echo "... src/heuristic.o"
 	@echo "... src/heuristic.i"
 	@echo "... src/heuristic.s"
